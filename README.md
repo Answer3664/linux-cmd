@@ -4,4 +4,4 @@
 
 2. 查看文档有多上行：wc -l train.en
 
-3. 裁剪文件
+3. 裁剪文件前n行：head -n $filename > $newfilename
