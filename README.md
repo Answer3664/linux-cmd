@@ -8,6 +8,6 @@
 
 4. 查看文件大小：du -h 文件名
 
-5. 查看环境变量：vim ~/.bashrc
+5. 查看环境变量：vim ~/.bashrc，修改之后编辑 source ~/.bashrc
 
 6.
