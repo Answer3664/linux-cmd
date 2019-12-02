@@ -11,3 +11,6 @@
 5. 查看环境变量：vim ~/.bashrc，修改之后编辑 source ~/.bashrc
 
 6. 查看文件前5行：head -n 5 $filename
+
+7. 根据进程id查看用户民： top p 12345
+
