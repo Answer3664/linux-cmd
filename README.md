@@ -14,3 +14,8 @@
 
 7. 根据进程id查看用户名： top p 12345
 
+8. 去掉test.tran中的@（逆子词化）：sed -r 's/(@@ )|(@@ ?$)//g' test.tran > test.tran1
+
+9. 替换@-@但是好像不需要用：sed -i 's/( @-@ )/(-)/g' test.tran1 > test.tran2
+
+
