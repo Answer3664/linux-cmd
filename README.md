@@ -20,3 +20,4 @@
 
 10. 将file1.txt和file2.txt合并到file.txt: cat file1.txt file2.txt > file.txt
 
+11. 比较两个文件的不同点： vimdiff test.tran1 ../test.de
