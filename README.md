@@ -18,4 +18,5 @@
 
 9. 替换@-@但是好像不需要用：sed -i 's/( @-@ )/(-)/g' test.tran1 > test.tran2
 
+10. 将file1.txt和file2.txt合并到file.txt: cat file1.txt file2.txt > file.txt
 
