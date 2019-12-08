@@ -23,3 +23,8 @@
 11. 比较两个文件的不同点： vimdiff test.tran1 ../test.de
 
 12. 服务器不显示进程的路径，只显示python3:进入train.sh，修改里面的参数，然后直接执行这个脚本（bash train.sh）
+
+13. 行首添加字符串：sed 's/^/[1] /' abc.txt >> test.txt
+    行尾添加字符串：sed 's/$/ [1]/' abc.txt >> test.txt
+    
+    
