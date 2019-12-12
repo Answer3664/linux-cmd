@@ -26,5 +26,5 @@
 
 13. 行首添加字符串：sed 's/^/[1] /' abc.txt >> test.txt
     行尾添加字符串：sed 's/$/ [1]/' abc.txt >> test.txt
-    sed '/./{s/^/[1] /;s/$/ [1]/}' train.de >> ../pa_token_nmt/train.de 开头和结尾同时添加
+    开头和结尾同时添加：sed '/./{s/^/[1] /;s/$/ [1]/}' train.de >> ../pa_token_nmt/train.de
     
