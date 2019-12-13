@@ -35,3 +35,6 @@
 16. 查看GPU使用情况：nvidia-smi
 
 17. 解压文件：unzip -n zip文件
+
+18. top -p pid
+    top -u username
