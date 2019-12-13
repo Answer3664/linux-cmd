@@ -27,4 +27,6 @@
 13. 行首添加字符串：sed 's/^/[1] /' abc.txt >> test.txt
     行尾添加字符串：sed 's/$/ [1]/' abc.txt >> test.txt
     开头和结尾同时添加：sed '/./{s/^/[1] /;s/$/ [1]/}' train.de >> ../pa_token_nmt/train.de
+
+14. 随机按行打乱文件：shuf file1.txt -o file2.txt
     
