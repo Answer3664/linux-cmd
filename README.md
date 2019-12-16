@@ -39,3 +39,5 @@
 18. top -p pid
 
     top -u username
+ 
+19. 查看动态更新的log文件：tail -f train.log
