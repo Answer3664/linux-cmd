@@ -41,3 +41,5 @@
     top -u username
  
 19. 查看动态更新的log文件：tail -f train.log
+
+20. 一次复制多个文件：cp /home/usr/dir/{file1,file2,file3,file4} /home/usr/destination/
