@@ -53,3 +53,5 @@
     1. Ctrl+V，进入VISUAL BLOCK模式。
     2. 使用上下的方向键移动光标，选择你需要取消注释的行。
     3. 输入 x，删除所有的 #，同时退出visual block模式。
+    
+23. 行跳转和列跳转方法：https://www.cnblogs.com/dylancao/p/9792103.html
