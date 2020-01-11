@@ -43,3 +43,13 @@
 19. 查看动态更新的log文件：tail -f train.log
 
 20. 一次复制多个文件：cp /home/usr/dir/{file1,file2,file3,file4} /home/usr/destination/
+
+21. 注释多行文本
+    1. Ctrl+V，进入VISUAL BLOCK模式。
+    2. 使用上下的方向键移动光标，选择你需要注释的行。
+    3. shift+i ， 输入注释符号 #，按esc。这三步都要操作完。 稍微等待2秒，修改成功。
+    
+22. 取消注释多行文本
+    1. Ctrl+V，进入VISUAL BLOCK模式。
+    2. 使用上下的方向键移动光标，选择你需要取消注释的行。
+    3. 输入 x，删除所有的 #，同时退出visual block模式。
