@@ -55,3 +55,5 @@
     3. 输入 x，删除所有的 #，同时退出visual block模式。
     
 23. 行跳转和列跳转方法：https://www.cnblogs.com/dylancao/p/9792103.html
+
+24. 查看多个文件的BLEU并排序：grep 'BLEU' *000/valid.tran.evalmb | sort -rk 2
