@@ -57,3 +57,7 @@
 23. 行跳转和列跳转方法：https://www.cnblogs.com/dylancao/p/9792103.html
 
 24. 查看多个文件的BLEU并排序：grep 'BLEU' *000/valid.tran.evalmb | sort -rk 2
+
+25. 去空行：sed '/^$/d' sources.list
+
+26. 去重：sort -n cn.txt | uniq
