@@ -65,3 +65,14 @@
 27. 去掉windows下的回车符（注意^M在linux下写法，按住CTRL+v，松开v，按m）：sed -i 's/^M//g' 文件名
 
 28. 抽取偶数行：awk '{if (NR%2 == 0)  print $0; }' 文件名 > 重定向文件名
+
+29. 本地提交到github， github上没有这个项目
+    git init
+    git add .
+    git commit -m "提交的注释"
+    git remote add origin yourRepositoryAddress
+    git push origin master
+30. 本地提交到github， github上有这个项目
+    git add .
+    git commit -m "提交的注释"
+    git push origin master
