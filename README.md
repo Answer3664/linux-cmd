@@ -75,4 +75,5 @@
 30. 本地提交到github， github上有这个项目
     git add .
     git commit -m "提交的注释"
+    git pull origin master   # 如果冲突需要从origin主机拉取master分支
     git push origin master
