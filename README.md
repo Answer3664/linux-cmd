@@ -66,14 +66,14 @@
 
 28. 抽取偶数行：awk '{if (NR%2 == 0)  print $0; }' 文件名 > 重定向文件名
 
-29. 本地提交到github， github上没有这个项目
-    git init
-    git add .
-    git commit -m "提交的注释"
-    git remote add origin yourRepositoryAddress
-    git push origin master
-30. 本地提交到github， github上有这个项目
-    git add .
-    git commit -m "提交的注释"
-    git pull origin master   # 如果冲突需要从origin主机拉取master分支
-    git push origin master
+29. 本地提交到github， github上没有这个项目<br/>
+    git init<br/>
+    git add .<br/>
+    git commit -m "提交的注释"<br/>
+    git remote add origin yourRepositoryAddress<br/>
+    git push origin master<br/>
+30. 本地提交到github， github上有这个项目<br/>
+    git add .<br/>
+    git commit -m "提交的注释"<br/>
+    git pull origin master   # 如果冲突需要从origin主机拉取master分支<br/>
+    git push origin master<br/>
