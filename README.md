@@ -62,4 +62,6 @@
 
 26. 去重：sort -n cn.txt | uniq
 
-27. 
+27. 去掉windows下的回车符（注意^M在linux下写法，按住CTRL+v，松开v，按m）：sed -i 's/^M//g' 文件名
+
+28. 抽取偶数行：awk '{if (NR%2 == 0)  print $0; }' 文件名 > 重定向文件名
