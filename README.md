@@ -61,3 +61,5 @@
 25. 去空行：sed '/^$/d' sources.list   去行首空格： sed 's/^ *//g' test
 
 26. 去重：sort -n cn.txt | uniq
+
+27. 
