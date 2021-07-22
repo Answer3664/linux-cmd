@@ -77,3 +77,4 @@
     git commit -m "提交的注释"<br/>
     git pull origin master   # 如果冲突需要从origin主机拉取master分支<br/>
     git push origin master<br/>
+31. 查看进程信息： ps -x pid | less
