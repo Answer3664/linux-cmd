@@ -79,3 +79,4 @@
     git push origin master<br/>
 31. 查看进程信息： ps -x pid | less
 32. 删除一个文件的前5行:  tail -n +5 file1.txt > file2.txt
+33. 删除一个文件的后5行： head -n -5 file1.txt > file2.txt
