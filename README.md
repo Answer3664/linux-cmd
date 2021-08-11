@@ -80,3 +80,4 @@
 31. 查看进程信息： ps -x pid | less
 32. 删除一个文件的前5行:  tail -n +5 file1.txt > file2.txt
 33. 删除一个文件的后5行： head -n -5 file1.txt > file2.txt
+34. 把stories文件夹下以.story结尾的文件复制到stories文件夹下：find stories/ -name "*.story" | xargs -i cp {} ../stories/
