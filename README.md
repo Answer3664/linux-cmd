@@ -83,3 +83,4 @@
 34. 把stories文件夹下以.story结尾的文件复制到stories文件夹下：find stories/ -name "*.story" | xargs -i cp {} ../stories/
 35. 查看一个进程的完整命令： ps pid | less
 36. 有的脚本可能不能执行，使用 chmod 命令能够给予脚本执行模式或者权限。chmod +x myscript.py
+37. 删除三天之前的文件：find /usr/local/backups -mtime +10 -name "*.*" -exec rm -rf {} \;
