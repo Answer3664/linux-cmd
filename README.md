@@ -84,3 +84,4 @@
 35. 查看一个进程的完整命令： ps pid | less
 36. 有的脚本可能不能执行，使用 chmod 命令能够给予脚本执行模式或者权限。chmod +x myscript.py
 37. 删除三天之前的文件：find /usr/local/backups -mtime +10 -name "*.*" -exec rm -rf {} \;
+38. 打包压缩文件，把当前文件夹下所有文件打包压缩到corpus.tar.gz：tar -zcvf corpus.tar.gz * 
